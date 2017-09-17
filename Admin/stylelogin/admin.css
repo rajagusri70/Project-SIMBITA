@@ -1,0 +1,160 @@
+
+
+body {
+  background-color: #f2f2f2;
+  font: 87.5%/1.5em 'Open Sans', sans-serif;
+  margin: 0;
+
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2c3338;
+    position: relative;
+    width: 100%;
+
+  }
+
+  .navbar-font  {
+  display: block;
+  color: #a9a9a9;
+  text-align: left;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form{
+  position: relative;
+  font-size: 12px;
+}
+input[type=text], select {
+    width: 50%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=date], select {
+    width: 30%;
+    height: 50px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+
+}
+
+div {
+
+    padding: 20px;
+
+}
+button,input,select,textarea{font:inherit;margin:0}optgroup{font-weight:bold}
+button,input{overflow:visible}button,select{text-transform:none}
+button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+a{background-color:transparent;-webkit-text-decoration-skip:objects}
+a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}
+
+footer{display: block;}
+.container {
+  width: auto;
+  margin-left: 23%;
+  position: relative!important;
+
+
+}
+.container:after,.container:before,.panel:after
+.footfont{
+  text-align: center;
+  font-size: 9px;
+}
+.lbutton{border:none;
+  display:inline-block;
+  outline:0;
+  padding:0;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap}
+
+.foot {
+  margin: 0;
+  padding: 10px;
+  border-color: black;
+  background-color: #ffff;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+
+}
+
+.sidebar{height:100%;width:100px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+
+@media (min-width:993px){.modal-content{width:900px}.hide-large{display:none!important}.sidebar.collapse{display:block!important}}
+@media (max-width:992px){.sidebar.collapse{display:none}.main{margin-left:0!important;margin-right:0!important}}
+
+.text-light-grey,.hover-text-light-grey:hover,.text-light-gray,.hover-text-light-gray:hover{color:#f1f1f1!important}
+.bar-block .dropdown-hover,.abar-block .dropdown-click{width:100%}
+.bar-block .dropdown-hover .dropdown-content,.bar-block .dropdown-click .dropdown-content{min-width:100%}
+.bar-block .dropdown-hover .button,.bar-block .dropdown-click .button{width:100%;text-align:left;padding:8px 16px}
+.bar-block .bar-item{padding:8px 16px;float:left;width:auto;border:none;outline:none;display:block}
+.bar-block .bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;outline:none;white-space:normal;float:none}
+.bar-block .center .bar-item{text-align:center}.block{display:block;width:100%}
+.bar .button{white-space:normal}
+.left-align{text-align:left!important}
+.hide{display:none!important}.show-block,.show{display:block!important}.show-inline-block{display:inline-block!important}
+.card,.card-2{box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.white,.hover-white:hover{color:#000!important;background-color:#fff!important}
+.btn,.button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.btn:hover{box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+.btn,.button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.disabled,.btn:disabled,.button:disabled{cursor:not-allowed;opacity:0.3}.disabled *,:disabled *{pointer-events:none}
+.btn.disabled:hover,.btn:disabled:hover{box-shadow:none}
+.dropdown-click,.dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+.dropdown-hover:hover .dropdown-content{display:block;z-index:1}
+.dropdown-hover:first-child,.dropdown-click:hover{background-color:#ccc;color:#000}
+.dropdown-hover:hover > .button:first-child,.dropdown-click:hover > .button:first-child{background-color:#ccc;color:#000}
+.dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0}
+.bar .dropdown-hover,.bar .dropdown-click{position:static;float:left}
+.dropdown-hover.mobile .dropdown-content,.dropdown-click.mobile .dropdown-content{position:relative}
+.hide-small{display:none!important}.mobile{display:block;width:100%!important}.bar-item.mobile,.dropdown-hover.mobile,.dropdown-click.mobile{text-align:center}
+.dropdown-hover.mobile,.dropdown-hover.mobile .btn,.dropdown-hover.mobile .button,.dropdown-click.mobile,.dropdown-click.mobile .btn,.dropdown-click.mobile .button{width:100%}}
+.button:hover{color:#000!important;background-color:#ccc!important}
+.show-block,.show{display:block!important}.show-inline-block{display:inline-block!important}
+.green,.hover-green:hover{color:#fff!important;background-color:#4CAF50!important}
+.button:hover{color:#000!important;background-color:#ccc!important}
+.transparent,.hover-none:hover{background-color:transparent!important}
+.hover-none:hover{box-shadow:none!important}
