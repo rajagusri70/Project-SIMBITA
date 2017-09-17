@@ -42,3 +42,63 @@ function thirdAccFunc(){
 
   }
 }
+
+function fourthAccFunc(){
+  var a = document.getElementById("fourthAcc");
+  if (a.className.indexOf("show") == -1) {
+    a.className += " show";
+    a.previousElementSibling.className += " green";
+
+
+  } else {
+    a.className = a.className.replace(" show", "");
+    a.previousElementSibling.className =
+    a.previousElementSibling.className.replace(" green", "");
+
+  }
+}
+
+function fifthAccFunc(){
+  var b = document.getElementById("fifthAcc");
+  if (b.className.indexOf("show") == -1) {
+    b.className += " show";
+    b.previousElementSibling.className += " green";
+
+
+  } else {
+    b.className = b.className.replace(" show", "");
+    b.previousElementSibling.className =
+    b.previousElementSibling.className.replace(" green", "");
+
+  }
+}
+
+function sixthAccFunc(){
+  var c = document.getElementById("sixthAcc");
+  if (c.className.indexOf("show") == -1) {
+    c.className += " show";
+    c.previousElementSibling.className += " green";
+
+
+  } else {
+    c.className = c.className.replace(" show", "");
+    c.previousElementSibling.className =
+    c.previousElementSibling.className.replace(" green", "");
+
+  }
+}
+
+function seventhAccFunc(){
+  var d = document.getElementById("seventhAcc");
+  if (d.className.indexOf("show") == -1) {
+    d.className += " show";
+    d.previousElementSibling.className += " green";
+
+
+  } else {
+    d.className = d.className.replace(" show", "");
+    d.previousElementSibling.className =
+    d.previousElementSibling.className.replace(" green", "");
+
+  }
+}
